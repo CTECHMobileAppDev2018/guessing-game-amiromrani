@@ -12,7 +12,6 @@ public class GuessingGame {
       Scanner input = new Scanner(System.in);  // Create a Scanner object
       System.out.println("Enter your guess");
       int userinput = input.nextInt();
-      String userName = myObj.nextLine();  // Read user input
        Random rand = new Random(); 
   
         // Generate random integers in range 0 to 100
